@@ -59,7 +59,7 @@ function App() {
                 setEndorsementEl(endorsements);
             }
         });
-    }, []);
+    });
 
   return (
     <div className="App">
