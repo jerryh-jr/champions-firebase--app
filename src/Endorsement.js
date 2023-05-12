@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Endorsement(props) {
+function Endorsement(props) {
     return (
             <div className={"container flow bg-white text-dark ff-inter endorsement-container radius"}>
                 <h3 className={"fs-200"}>To: {props.toText}</h3>
@@ -9,3 +9,5 @@ export default function Endorsement(props) {
             </div>
     )
 }
+
+export default Endorsement;

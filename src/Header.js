@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Header(props) {
+function Header(props) {
     return (
         <div className={"flow flow header-container"} style={{ "--flow-space": "0.75rem" }}>
             <img
@@ -50,3 +50,5 @@ export default function Header(props) {
         </div>
     )
 }
+
+export default Header;

@@ -1,7 +1,7 @@
 import Endorsement from './Endorsement';
 import Header from './Header';
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+import { initializeApp } from'firebase/app';
+import { getDatabase, ref, push, onValue, remove } from 'firebase/database';
 import React, {useEffect, useState} from "react";
 
 function App() {
